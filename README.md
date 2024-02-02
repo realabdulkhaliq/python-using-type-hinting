@@ -37,3 +37,34 @@ https://www.turing.com/kb/how-to-create-pypi-packages
 ## Duck Typing
 
 https://ioflood.com/blog/duck-typing/
+
+# Numpy Typing
+
+https://pypi.org/project/nptyping/
+https://snyk.io/advisor/python/nptyping/functions/nptyping.NDArray
+https://stackoverflow.com/questions/76105551/for-type-hinting-purposes-what-are-the-advantages-of-np-typing-ndarrray-over-np
+https://github.com/ramonhagenaars/nptyping/blob/master/USERDOCS.md#Quickstart
+
+`%pip install nptyping beartype --upgrade --force`
+
+### Pandera
+
+https://pandera.readthedocs.io/en/stable/index.html
+
+https://docs.python.org/3/library/re.html
+
+## Data Wraggling
+
+- .merge
+- .join
+- pd.concat([df1,df2])
+
+## joining
+
+- left join,
+- right join
+- inner join
+- outer join
+- cross join
+
+https://www.w3schools.com/sql/sql_join.asp
