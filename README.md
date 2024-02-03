@@ -51,6 +51,8 @@ https://github.com/ramonhagenaars/nptyping/blob/master/USERDOCS.md#Quickstart
 
 https://pandera.readthedocs.io/en/stable/index.html
 
+### Regular Expression
+
 https://docs.python.org/3/library/re.html
 
 ## Data Wraggling
