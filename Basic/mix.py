@@ -7,16 +7,19 @@
 # print([n**2 for n in range(1, 11)])
 # grade: str| None = None
 
-myDict: dict = {"name": "Abdul", "age": 30}
+# myDict: dict = {"name": "Abdul", "age": 30}
 
-print(myDict["name"])
+# print(myDict["name"])
 
-myDict2: dict[str, str] = {"name": "Abdul", "age": "30"}
+# myDict2: dict[str, str] = {"name": "Abdul", "age": "30"}
 
-print(myDict2["name"])
+# print(myDict2["name"])
 
-from typing import Dict
+# from typing import Dict
 
-myDict3: Dict[str, str] = {"name": "Abdul", "age": "30"}
+# myDict3: Dict[str, str] = {"name": "Abdul", "age": "30"}
 
-print(myDict3["name"])
+# print(myDict3["name"])
+myDict3 = {"name": "Abdul", "age": "30", "rollno": {"a": 1, "b": 2, "c": 3}}
+
+print(myDict3["rollno"]["b"])
