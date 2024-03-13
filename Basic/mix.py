@@ -20,6 +20,13 @@
 # myDict3: Dict[str, str] = {"name": "Abdul", "age": "30"}
 
 # print(myDict3["name"])
-myDict3 = {"name": "Abdul", "age": "30", "rollno": {"a": 1, "b": 2, "c": 3}}
+# myDict3 = {"name": "Abdul", "age": "30", "rollno": {"a": 1, "b": 2, "c": 3}}
 
-print(myDict3["rollno"]["b"])
+# print(myDict3["rollno"]["b"])
+
+import pandas as pd
+
+myDict7: dict[str, list[str | int]] = {"rollno": [1, 2, 3], "name": ["A", "B", "C"], "age": [11, 12, 13], "address": ["A", "B", "C"], "marks": [111, 112, 113]}
+
+df1: pd.DataFrame = pd.DataFrame(myDict7)
+df1
