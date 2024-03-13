@@ -12,6 +12,8 @@ https://www.infoworld.com/article/3630372/get-started-with-python-type-hints.htm
 
 https://peps.python.org/pep-0484/#type-aliases
 
+python3 -m pip install pandas-stubs
+
 ## Lambda
 
 https://stackoverflow.com/questions/33833881/is-it-possible-to-type-hint-a-lambda-function
