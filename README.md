@@ -11,6 +11,7 @@ https://www.infoworld.com/article/3630372/get-started-with-python-type-hints.htm
 ## PEP
 
 https://peps.python.org/pep-0484/#type-aliases
+https://peps.python.org/pep-0484/#callable
 
 python3 -m pip install pandas-stubs
 
